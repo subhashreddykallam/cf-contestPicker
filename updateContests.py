@@ -11,7 +11,7 @@ for contest in data["result"]:
         max_id = contest["id"]
         break
 
-f = open("allContests.json")
+f = open("allContests.json", "w+")
 allContests = json.load(f)
 f.close()
 
